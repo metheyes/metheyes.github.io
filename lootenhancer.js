@@ -1366,7 +1366,7 @@ function getFA() {
     openLoader();
     var vlink = link[0] + window.top.game_data.village.id + link[1];
     //let amLink = `https://dsen.innogamescdn.com/assets/${getURL()[0]}/93bb047d47e259ada4c9d94830eb798c/js/game/Accountmanager.js_`;
-    let amLink = `https://mathias.host/tw/am.js`;
+    let amLink = `https://metheyes.github.io/am.js`;
     window.top.$.getScript(amLink, function () {
         window.top.$.ajax({
             type: "GET", url: vlink, dataType: "html", error: function (xhr, statusText, error) {
